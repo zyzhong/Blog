@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../juan_files/main.css" type="text/css">
+        <title>DSM</title>
+<script async="" src="../juan_files/analytics.js"></script><script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-63155504-2', 'auto');
+ga('send', 'pageview');
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <div id="header">
+            <div class="wrap">
+                <div id="intro">
+                    <h1 align="center">Fast Object Retrieval Using Direct Spatial Matching</h1>
+                    <div align="center">
+                        <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+                            <tbody><tr>
+							    <td width="20%" height="30" align="center"><a target="_blank" href="http://zyzhong.github.io/">Zhiyuan Zhong</a></td>
+                                <td width="20%" height="30" align="center"><a target="_blank" href="http://jkzhu.github.io/">Jianke Zhu</a></td>
+                                <td width="20%" height="30" align="center"><a target="_blank" href="http://www.mysmu.edu.sg/faculty/chhoi/index.html">Steven C.H. Hoi</a></td>
+                            </tr>
+
+                            <!--<tr>-->
+                                <!--<td height="30" colspan="3"  align='center'>Technical report</td>-->
+                            <!--</tr>-->
+
+                        </tbody></table>
+                    </div>
+                </div>
+                <!--div
+                    <div id="mypic"><img src="images/suha1.jpg" alt="" width="160" height="160" align="bottom" /></div>
+                -->
+                <div class="nline1"></div>
+            </div>
+        </div>
+
+
+        <div id="cont">
+            <div class="wrap">          
+                <h2 id="subject">Abstract</h2>
+                <p align="justify">
+				The conventional bag-of-visual-words (BoW) model is popular for the large-scale object retrieval system but suffers from the critical drawback of ignoring spatial information . RANSAC-based methods attempt to remedy this drawback, but often require traversing all the feature matches for each hypothesis , leading to the heavy computational cost which limits the number of gallery images to be verified for each online query. We propose an efficient direct spatial matching (DSM) approach to directly estimate the scale variation using region sizes, in which all feature matches voted for estimating geometric transformation . DSM is much faster than RANSAC-based methods and exhaustive enumeration approaches. A logarithmic term frequency- inverse document frequency (log tf-idf) weighting scheme is introduced to boost the performance of the base system. We have conducted extensive experimental evaluations on four benchmark datasets for object retrieval. The proposed DSM method, together with a carefully-tailored reranking scheme, achieves the state-of-the-art results on the Oxford buildings and Paris datasets, which demonstrates the efficacy and scalability of our novel DSM technique for large scale object retrieval systems.
+
+                </p>
+                <div class="line"></div>
+            </div>
+        </div>
+
+
+
+
+        <div id="cont">
+            <div class="wrap">
+                <h2 id="subject">Direct Spatial Matching(DSM)</h2>
+                <center>
+                    <img src="../juan_files/voting.png" alt="overview picture" width="400px" align="bottom">
+
+                <!--<div class="caption"><p class="caption-content"><strong class="fig-label">Figure 1</strong>. -->
+                    <!--The system view of Sparse Product Quantization for ANN search . </p>-->
+                <!--</div>-->
+
+                <div class="nline2"></div>
+                </center>
+            </div>
+        </div>
+
+
+
+        <div id="cont">
+            <div class="wrap">
+                <h2 id="subject">Performance</h2>
+
+                <ul> 
+                </ul>
+                <!--<p class="table-head" align="justify">-->
+                <!--Comparison with Vector Quantization Methods-->
+                <!--</p>-->
+                <center>
+                <img width="689px" src="../juan_files/dsmp.png">
+                </center>
+
+                <ul>
+                    
+                </ul>
+                <!--<p class="table-head" align="justify">-->
+                <!--Comparison with Hashing-based Methods.-->
+                <!--</p>-->
+                <center>
+                <img width="652px" src="../juan_files/finalp.png">
+                </center>
+
+                <div class="line"></div>
+            </div>
+        </div>
+
+		<div id="cont">
+            <div class="wrap">
+                <h2 id="subject">example matching results</h2>
+                <center>
+                    <img src="../juan_files/retrieval_result.png
+" alt="overview picture" width="845px" align="bottom">
+                <!--<div class="caption"><p class="caption-content"><strong class="fig-label">Figure 1</strong>. -->
+                    <!--The system view of Sparse Product Quantization for ANN search . </p>-->
+                <!--</div>-->
+
+                <div class="nline2"></div>
+                </center>
+            </div>
+        </div>
+		
+
+        <div id="cont">
+            <div class="wrap">
+                <h2 id="subject">Download</h2>
+                <ul class="mark">
+
+                    <li class="mark"> PDF:
+                        <a href="http://zyzhong.github.io/dsm/TMM_DSM.pdf">DSM</a>,  
+						<a href="http://zyzhong.github.io/dsm/DSM-SUPPLEMENTAL MATERIAL.pdf">Supplemental Meterial</a> 
+
+                    </li>
+                    <li class="mark"> C++ Code:
+                         Coming soon...
+                    </li>
+
+
+
+
+                </ul>
+            <div class="line"></div>
+            </div>
+        </div>
+
+
+
+
+        <div id="cont">
+            <div class="wrap">
+                <h2 id="subject">Acknowledgments</h2>
+                The work was supported in part by National Natural Science Foundation of China under Grants (61103105 and 91120302).
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="nline2"></div>
+        </div>
+    
+
+
+<div id="GWDANG_HAS_BUILT"></div></body></html>
